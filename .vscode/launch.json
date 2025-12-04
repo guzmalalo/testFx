@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main (Windows)",
+      "request": "launch",
+      "mainClass": "Main",
+      "vmArgs": "--module-path lib/javafx-win --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+      "type": "java",
+      "name": "Main (macOS)",
+      "request": "launch",
+      "mainClass": "Main",
+      "vmArgs": "--module-path lib/javafx-mac --add-modules javafx.controls,javafx.fxml"
+    }
+  ]
+}
