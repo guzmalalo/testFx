@@ -13,7 +13,7 @@
       "name": "Main (macOS)",
       "request": "launch",
       "mainClass": "Main",
-      "vmArgs": "--module-path lib/javafx-mac --add-modules javafx.controls,javafx.fxml"
+      "vmArgs": "--module-path lib/javafx-mac-25.0.1/lib --add-modules javafx.controls,javafx.fxml"
 
     }
   ]
